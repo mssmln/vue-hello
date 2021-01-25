@@ -9,10 +9,13 @@
   <title>Vue hello</title>
 </head>
 <body>
-  <h1 id="message">
-    {{ message }}
-  </h1>
-  <img v-bind:src="imgSource" v-bind:alt="imgTitle">
+  <div id="message">
+    <h1>
+      {{ message }}
+    </h1>
+    <img :class="effect" v-bind:src="imgSource" v-bind:alt="imgTitle">
+
+  </div>
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>

@@ -8,5 +8,6 @@ var app = new Vue({
     message: 'you are welcome Vue!',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png',
     imgTitle: 'Vue\'s logo',
+    effect: 'vue-logo'
   }
 });
